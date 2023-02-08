@@ -16,7 +16,13 @@ const CreatePost = () => {
   const [loading, setLoading] = useState(false);
 
   const generateImage = () => {
+    if(form.prompt) {
+      try {
 
+      } catch (error) {
+        
+      }
+    }
   }
 
   const handleSubmit = () => {
