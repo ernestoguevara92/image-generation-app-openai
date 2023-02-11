@@ -103,7 +103,7 @@ const Home = () => {
                     grid-cols-1 gap-3'>
                         {searchText ? (
                             <RenderCards
-                                data={[]}
+                                data={searchResults}
                                 title="No search results found"
                             />
                         ) : (
